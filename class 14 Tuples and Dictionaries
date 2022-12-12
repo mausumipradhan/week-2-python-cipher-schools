@@ -1,0 +1,25 @@
+class 14
+a=(1,2,3)
+print(type(a))
+
+def sum_diff(a,b):
+    s=a+b
+    d=a-b
+    return s,d
+print(sum_diff(10,5))
+
+a={
+    "name": "jatin"
+    "company": "google"
+    "college":"gndu"
+}
+
+key="marks"
+if key in a:
+    print(a(key))
+else:
+    print("key doesnt exist")
+
+for x in a.items():
+    print(key,"->",value)
+list(a)
