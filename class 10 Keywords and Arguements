@@ -1,0 +1,40 @@
+"""def fun():
+    print("hello")
+def hello():
+    print("Hello World!")
+    return 1
+
+def func(a,b=5,c):
+    print(a,b,c)
+func(1,c=4)
+"""
+def func(a,b):
+    print(a,b)
+func(1,2)
+
+def func(a=1, b=2):
+    print(a,b)
+func()
+func(1)
+func(3,4)
+
+def func(a,b,*c,d):
+    print(a)
+    print(b)
+    print("c:",c)
+    print(d)
+func(1,2,4,5,6,7,8,d=9)
+
+def func(**k):
+    print(k)
+func(name="jatin")
+
+#def func(a,b=1,*c,d,e='',**k):
+
+z=lambda a, b : a + b
+print(z(1,2))
+
+def asfd():
+    print("gibberish")
+
+func(a=lambda: print('hello'))
