@@ -1,0 +1,27 @@
+#class 12 string
+
+a=5
+print("the value of a is %d" % (a))
+print ("thr value of a is {}".format(a))
+
+a,b,c=1,2,3
+print("a={}, b={} , c={}".format(a,b,c))
+
+name="jatin"
+company="apple"
+print("name={name} company={company}".format(name=name, company=company))
+
+print(f"name={name}")
+
+print("hello my name is {name} and i work in {company}".format(name=name,company=company))
+
+print(f"name={10/3}")
+
+print(len(r"a\nb"))
+
+a="   jatin  ".strip()
+print(a)
+
+
+print("jatin".replace("a","z"))
+print("jatin katyal".count("a"))
