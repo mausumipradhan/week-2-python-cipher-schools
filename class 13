@@ -1,0 +1,36 @@
+a=[1,2,3,4]
+print(a)
+b=["jatin",1,1.5]
+print(len(b))
+print(a+b)
+for x in a:
+    print(x)
+print("j" in "jatin")
+print(3 in a)
+
+print(a[-1])
+
+a=[1,2,3]
+a.insert(1,100)
+a.append(5)
+print(a)
+a.pop()
+print(a)
+a.pop(2)
+print(a)
+a=[5,1,9,2,3,4,5,6]
+a.remove(5)
+print(a)
+a.sort()
+print(a)
+a.reverse()
+print(a)
+
+a=[1,2,3,4]
+for x in map(lambda x:x**2,a):
+    print(x)
+
+a=list(map(int,input().split(",")))
+print(a)
+a=",".join(["jatin","samarth","molly"])
+print(a)
